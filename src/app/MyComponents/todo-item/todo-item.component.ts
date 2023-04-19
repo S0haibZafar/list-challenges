@@ -18,8 +18,8 @@ export class TodoItemComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  deleteMethod(TodoData: Todo){
-    console.log(TodoData);
+  deleteMethod(todoData: Todo){
+    this.deleteEvent.emit(todoData);
   }
 
 }
