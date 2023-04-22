@@ -22,7 +22,7 @@ export class TodosComponent implements OnInit {
     // this.todoData=[
       // {
       //   sno:1,
-      //   name:'ALi',
+      //    name:'ALi',
       //   description:'Description',
       //   active: true
       // },
